@@ -4,3 +4,5 @@
 
 -- Disable LazyVim autoformat on save
 vim.g.autoformat = false
+
+vim.opt.shell = "/usr/bin/zsh"

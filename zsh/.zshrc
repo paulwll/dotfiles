@@ -1,3 +1,8 @@
+autoload -U compinit
+compinit
+setopt COMPLETE_IN_WORD
+
+export PATH="$HOME/.local/bin:$PATH"
 eval "$(starship init zsh)"
 
 cr() {
